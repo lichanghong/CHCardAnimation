@@ -1,0 +1,29 @@
+PODS:
+  - CHBaseUtil_FLEXInspector (0.1.5)
+  - CHBaseUtil_Safe (0.1.6)
+  - CHBaseUtil_UI (0.1.2)
+  - CHBaseUtil_Util (0.1.1):
+    - CHBaseUtil_Safe (~> 0.1.5)
+
+DEPENDENCIES:
+  - CHBaseUtil_FLEXInspector (~> 0.1.5)
+  - CHBaseUtil_Safe (~> 0.1.6)
+  - CHBaseUtil_UI (~> 0.1.2)
+  - CHBaseUtil_Util (~> 0.1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CHBaseUtil_FLEXInspector
+    - CHBaseUtil_Safe
+    - CHBaseUtil_UI
+    - CHBaseUtil_Util
+
+SPEC CHECKSUMS:
+  CHBaseUtil_FLEXInspector: 91934ed72feb8701719364ad4000760ec5f85cee
+  CHBaseUtil_Safe: fd9556cccc1d56554f307c152dfda3863b9b7c0a
+  CHBaseUtil_UI: 317783527211042066981accf85bf840664b7586
+  CHBaseUtil_Util: 5ea6a67c20fc39157a72950061d9946cd41588f8
+
+PODFILE CHECKSUM: b31a35ddd170ac76b42a5b523581ae5bf5f93474
+
+COCOAPODS: 1.5.3

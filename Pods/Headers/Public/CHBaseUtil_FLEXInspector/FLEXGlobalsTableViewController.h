@@ -1,0 +1,1 @@
+../../../CHBaseUtil_FLEXInspector/FLEXInspector/Classes/GlobalStateExplorers/FLEXGlobalsTableViewController.h

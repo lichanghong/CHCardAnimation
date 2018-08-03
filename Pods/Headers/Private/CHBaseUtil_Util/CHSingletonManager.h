@@ -1,0 +1,1 @@
+../../../CHBaseUtil_Util/CHBaseUtil_Util/Classes/Singleton/CHSingletonManager.h

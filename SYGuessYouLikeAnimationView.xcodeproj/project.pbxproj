@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69541FB550184F411FB26F7F /* libPods-SYGuessYouLikeAnimationView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FCDE307CCC3DB3B8844BCF /* libPods-SYGuessYouLikeAnimationView.a */; };
+		95078D012110714B003F93B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95078D002110714B003F93B2 /* AppDelegate.m */; };
+		95078D042110714B003F93B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95078D032110714B003F93B2 /* ViewController.m */; };
+		95078D072110714B003F93B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95078D052110714B003F93B2 /* Main.storyboard */; };
+		95078D092110714C003F93B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95078D082110714C003F93B2 /* Assets.xcassets */; };
+		95078D0C2110714C003F93B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95078D0A2110714C003F93B2 /* LaunchScreen.storyboard */; };
+		95078D0F2110714C003F93B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95078D0E2110714C003F93B2 /* main.m */; };
+		9517A6B72111A3B900E90142 /* CHCardAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517A6B62111A3B900E90142 /* CHCardAnimationView.m */; };
+		9517A6BC2112ACD000E90142 /* SYCardAnimationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517A6BB2112ACD000E90142 /* SYCardAnimationTableViewCell.m */; };
+		9517A6BF2112B2A800E90142 /* SYCardAnimationContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517A6BE2112B2A800E90142 /* SYCardAnimationContentView.m */; };
+		9523D20B2113084C0045B4AA /* SYHorizontalCollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9523D20A2113084C0045B4AA /* SYHorizontalCollectionTableViewCell.m */; };
+		9523D20E2113FA0A0045B4AA /* SYAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9523D20D2113FA0A0045B4AA /* SYAnimatedView.m */; };
+		9523D211211428BD0045B4AA /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9523D210211428BD0045B4AA /* UIView+Shadow.m */; };
+		9523D21421142D800045B4AA /* SYHorizontalHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9523D21321142D800045B4AA /* SYHorizontalHomeCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C07A28221E62D8BAB6701A /* Pods-SYGuessYouLikeAnimationView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGuessYouLikeAnimationView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYGuessYouLikeAnimationView/Pods-SYGuessYouLikeAnimationView.release.xcconfig"; sourceTree = "<group>"; };
+		35FCDE307CCC3DB3B8844BCF /* libPods-SYGuessYouLikeAnimationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYGuessYouLikeAnimationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9FD9569156F9BD654DC084 /* Pods-SYGuessYouLikeAnimationView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGuessYouLikeAnimationView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYGuessYouLikeAnimationView/Pods-SYGuessYouLikeAnimationView.debug.xcconfig"; sourceTree = "<group>"; };
+		95078CFC2110714B003F93B2 /* SYGuessYouLikeAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYGuessYouLikeAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95078CFF2110714B003F93B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95078D002110714B003F93B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95078D022110714B003F93B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95078D032110714B003F93B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95078D062110714B003F93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95078D082110714C003F93B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95078D0B2110714C003F93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95078D0D2110714C003F93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95078D0E2110714C003F93B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9517A6B52111A3B900E90142 /* CHCardAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCardAnimationView.h; sourceTree = "<group>"; };
+		9517A6B62111A3B900E90142 /* CHCardAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCardAnimationView.m; sourceTree = "<group>"; };
+		9517A6BA2112ACD000E90142 /* SYCardAnimationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCardAnimationTableViewCell.h; sourceTree = "<group>"; };
+		9517A6BB2112ACD000E90142 /* SYCardAnimationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCardAnimationTableViewCell.m; sourceTree = "<group>"; };
+		9517A6BD2112B2A800E90142 /* SYCardAnimationContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCardAnimationContentView.h; sourceTree = "<group>"; };
+		9517A6BE2112B2A800E90142 /* SYCardAnimationContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCardAnimationContentView.m; sourceTree = "<group>"; };
+		9523D2092113084C0045B4AA /* SYHorizontalCollectionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYHorizontalCollectionTableViewCell.h; sourceTree = "<group>"; };
+		9523D20A2113084C0045B4AA /* SYHorizontalCollectionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYHorizontalCollectionTableViewCell.m; sourceTree = "<group>"; };
+		9523D20C2113FA0A0045B4AA /* SYAnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAnimatedView.h; sourceTree = "<group>"; };
+		9523D20D2113FA0A0045B4AA /* SYAnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAnimatedView.m; sourceTree = "<group>"; };
+		9523D20F211428BD0045B4AA /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		9523D210211428BD0045B4AA /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		9523D21221142D800045B4AA /* SYHorizontalHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYHorizontalHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		9523D21321142D800045B4AA /* SYHorizontalHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYHorizontalHomeCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95078CF92110714B003F93B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69541FB550184F411FB26F7F /* libPods-SYGuessYouLikeAnimationView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F56797BBD16E80F17618065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FD9569156F9BD654DC084 /* Pods-SYGuessYouLikeAnimationView.debug.xcconfig */,
+				02C07A28221E62D8BAB6701A /* Pods-SYGuessYouLikeAnimationView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A8738BC7F56680AFE0DAF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FCDE307CCC3DB3B8844BCF /* libPods-SYGuessYouLikeAnimationView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95078CF32110714A003F93B2 = {
+			isa = PBXGroup;
+			children = (
+				95078CFE2110714B003F93B2 /* SYGuessYouLikeAnimationView */,
+				95078CFD2110714B003F93B2 /* Products */,
+				5F56797BBD16E80F17618065 /* Pods */,
+				7A8738BC7F56680AFE0DAF5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95078CFD2110714B003F93B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95078CFC2110714B003F93B2 /* SYGuessYouLikeAnimationView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95078CFE2110714B003F93B2 /* SYGuessYouLikeAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				9523D20F211428BD0045B4AA /* UIView+Shadow.h */,
+				9523D210211428BD0045B4AA /* UIView+Shadow.m */,
+				9523D2082113064B0045B4AA /* AnimationView */,
+				95078CFF2110714B003F93B2 /* AppDelegate.h */,
+				95078D002110714B003F93B2 /* AppDelegate.m */,
+				95078D022110714B003F93B2 /* ViewController.h */,
+				95078D032110714B003F93B2 /* ViewController.m */,
+				9523D2092113084C0045B4AA /* SYHorizontalCollectionTableViewCell.h */,
+				9523D20A2113084C0045B4AA /* SYHorizontalCollectionTableViewCell.m */,
+				9523D21221142D800045B4AA /* SYHorizontalHomeCollectionViewCell.h */,
+				9523D21321142D800045B4AA /* SYHorizontalHomeCollectionViewCell.m */,
+				9523D20C2113FA0A0045B4AA /* SYAnimatedView.h */,
+				9523D20D2113FA0A0045B4AA /* SYAnimatedView.m */,
+				95078D052110714B003F93B2 /* Main.storyboard */,
+				95078D082110714C003F93B2 /* Assets.xcassets */,
+				95078D0A2110714C003F93B2 /* LaunchScreen.storyboard */,
+				95078D0D2110714C003F93B2 /* Info.plist */,
+				95078D0E2110714C003F93B2 /* main.m */,
+			);
+			path = SYGuessYouLikeAnimationView;
+			sourceTree = "<group>";
+		};
+		9523D2082113064B0045B4AA /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				9517A6B52111A3B900E90142 /* CHCardAnimationView.h */,
+				9517A6B62111A3B900E90142 /* CHCardAnimationView.m */,
+				9517A6BD2112B2A800E90142 /* SYCardAnimationContentView.h */,
+				9517A6BE2112B2A800E90142 /* SYCardAnimationContentView.m */,
+				9517A6BA2112ACD000E90142 /* SYCardAnimationTableViewCell.h */,
+				9517A6BB2112ACD000E90142 /* SYCardAnimationTableViewCell.m */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95078CFB2110714B003F93B2 /* SYGuessYouLikeAnimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95078D122110714C003F93B2 /* Build configuration list for PBXNativeTarget "SYGuessYouLikeAnimationView" */;
+			buildPhases = (
+				C725968B7A3C2AE5540A83B4 /* [CP] Check Pods Manifest.lock */,
+				95078CF82110714B003F93B2 /* Sources */,
+				95078CF92110714B003F93B2 /* Frameworks */,
+				95078CFA2110714B003F93B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYGuessYouLikeAnimationView;
+			productName = SYGuessYouLikeAnimationView;
+			productReference = 95078CFC2110714B003F93B2 /* SYGuessYouLikeAnimationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95078CF42110714A003F93B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lichanghong;
+				TargetAttributes = {
+					95078CFB2110714B003F93B2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 95078CF72110714A003F93B2 /* Build configuration list for PBXProject "SYGuessYouLikeAnimationView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95078CF32110714A003F93B2;
+			productRefGroup = 95078CFD2110714B003F93B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95078CFB2110714B003F93B2 /* SYGuessYouLikeAnimationView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95078CFA2110714B003F93B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95078D0C2110714C003F93B2 /* LaunchScreen.storyboard in Resources */,
+				95078D092110714C003F93B2 /* Assets.xcassets in Resources */,
+				95078D072110714B003F93B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C725968B7A3C2AE5540A83B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYGuessYouLikeAnimationView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95078CF82110714B003F93B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9517A6BC2112ACD000E90142 /* SYCardAnimationTableViewCell.m in Sources */,
+				9517A6BF2112B2A800E90142 /* SYCardAnimationContentView.m in Sources */,
+				9523D20B2113084C0045B4AA /* SYHorizontalCollectionTableViewCell.m in Sources */,
+				9517A6B72111A3B900E90142 /* CHCardAnimationView.m in Sources */,
+				95078D042110714B003F93B2 /* ViewController.m in Sources */,
+				9523D211211428BD0045B4AA /* UIView+Shadow.m in Sources */,
+				9523D20E2113FA0A0045B4AA /* SYAnimatedView.m in Sources */,
+				95078D0F2110714C003F93B2 /* main.m in Sources */,
+				95078D012110714B003F93B2 /* AppDelegate.m in Sources */,
+				9523D21421142D800045B4AA /* SYHorizontalHomeCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95078D052110714B003F93B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95078D062110714B003F93B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95078D0A2110714C003F93B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95078D0B2110714C003F93B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95078D102110714C003F93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95078D112110714C003F93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95078D132110714C003F93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9FD9569156F9BD654DC084 /* Pods-SYGuessYouLikeAnimationView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXHK8ES9Y5;
+				INFOPLIST_FILE = SYGuessYouLikeAnimationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.qingyang.medical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95078D142110714C003F93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C07A28221E62D8BAB6701A /* Pods-SYGuessYouLikeAnimationView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXHK8ES9Y5;
+				INFOPLIST_FILE = SYGuessYouLikeAnimationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.qingyang.medical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95078CF72110714A003F93B2 /* Build configuration list for PBXProject "SYGuessYouLikeAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95078D102110714C003F93B2 /* Debug */,
+				95078D112110714C003F93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95078D122110714C003F93B2 /* Build configuration list for PBXNativeTarget "SYGuessYouLikeAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95078D132110714C003F93B2 /* Debug */,
+				95078D142110714C003F93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95078CF42110714A003F93B2 /* Project object */;
+}

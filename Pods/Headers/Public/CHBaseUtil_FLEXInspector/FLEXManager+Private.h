@@ -1,0 +1,1 @@
+../../../CHBaseUtil_FLEXInspector/FLEXInspector/Classes/Manager/FLEXManager+Private.h

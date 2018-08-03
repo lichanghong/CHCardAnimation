@@ -1,0 +1,1 @@
+../../../CHBaseUtil_FLEXInspector/FLEXInspector/Classes/GlobalStateExplorers/DatabaseBrowser/FLEXDatabaseManager.h
